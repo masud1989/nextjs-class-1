@@ -10,8 +10,7 @@ const TopNav = () => {
         <ul className='top-nav'>
             <li>
               <Link prefetch={true} className={path==='/'?'active-link' : 'not-active-link'} href='/' replace >Home</Link>
-            </li>
-            
+            </li> 
             <li>
               <Link prefetch={true} className={path==='/contact'?'active-link' : 'not-active-link'} href='/contact' replace >Contact</Link></li>
             <li>
@@ -24,6 +23,7 @@ const TopNav = () => {
             </li>
             <li><Link prefetch={true} className={path==='/blog'?'active-link' : 'not-active-link'} href='/blog'>Blog</Link></li>
             <li><Link prefetch={true} className={path==='/login'?'active-link' : 'not-active-link'} href='/login'>Login</Link></li>
+            <li><Link prefetch={true} className={path==='/register'?'active-link' : 'not-active-link'} href='/register'>Register</Link></li>
             <li><Link prefetch={true} className={path==='/register'?'active-link' : 'not-active-link'} href='/register'>Register</Link></li>
         </ul>
     </div>
